@@ -1,0 +1,34 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /**1rem**/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/**estilos**/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+
+/**Globales**/
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/**utilidades**/
