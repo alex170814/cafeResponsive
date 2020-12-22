@@ -1,0 +1,1 @@
+ejercicio del curso de udemy implementando responsive
